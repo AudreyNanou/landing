@@ -1,0 +1,278 @@
+/* pour tous les écrans supérieurs à 800px*/
+@media screen and (min-width:750px) {
+
+
+    html {
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    
+    body {
+        margin: 0px;
+        padding: 0;
+    }
+
+    body {
+
+        background-image: url("bike-back.png");
+        background-color: rgba(105, 105, 5, 0.5);
+    }
+
+
+    /* l entete */
+    header {
+        padding: 25px 50px;
+        /*Marge verticale*/
+        background-color: rgba(221, 197, 12, 0.30);
+        /*Couleur de fond*/
+        text-align: center;
+        /*texte centré*/
+    }
+
+    /*margin auto ne fonctionne que en horizontal*/
+    .center {
+        margin: auto;
+        /*centrer la colonne*/
+        padding: 1px;
+        /*margin interne*/
+        text-align: center;
+        color: rgba(16, 16, 109, 0.71);
+        font-size: large;
+        background-color: rgba(235, 225, 139, 0.25);
+        /*Couleur de fond*/
+    }
+
+
+/* l entete FIN */
+
+/* navbar MENU */
+    
+.menu {
+        margin: 30px;
+       
+    }
+    
+    
+ul {
+    color: rgba(16, 16, 109, 0.71);
+    list-style-type: none;
+    display: flex;
+    /* navbar menu horizontal */
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+li {
+
+    background-color: rgba(221, 197, 12, 0.40);
+
+}
+
+a {
+    text-decoration: none;
+    color: rgba(16, 16, 109, 0.71);
+}
+
+a:hover {
+    background-color: rgba (200, 100, 25, 0.35);
+    color: darkslategray;
+}
+
+/* navbar MENU FIN*/
+
+/* Les BOUTONS*/
+
+
+.connexion {
+    display: flex;
+    justify-content: center;
+
+}
+
+.decouvrir {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.styled {
+    color: rgba(18, 157, 175, 0.98);
+    text-align: center;
+    border: inset;
+    border-width: 5%;
+    border-color: rgba(30, 69, 6, 0.25);
+    line-height: 20%;
+    /*hauteur intérieure des buttons */
+    padding: 8% 5%;
+    font-size: medium;
+    text-align: center;
+
+    border-radius: 60px;
+    /*forme arrondie*/
+    background-color: rgba(200, 200, 25, 0.35);
+
+}
+
+.styled:hover {
+    background-color: rgba (200, 100, 25, 0.35);
+    color: darkslategray;
+}
+
+/* Les BOUTONS FIN*/
+    
+   
+
+    footer {
+    color: color: rgba(23, 22, 19, 0.8);
+    background-color: rgba(221, 197, 12, 0.30);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+}
+
+
+}
+
+/*@media all and (orientation : portrait)and (max-width : 1024px){ possible
+*/
+
+/* pour tous les écrans supérieurs à 750px*/
+@media screen and (max-width:750px) {
+    
+     html {
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    
+    body {
+        margin: 0px;
+        padding: 0;
+    }
+
+    body {
+
+/*        background-image: url("bike-back.png");*/
+        background-color: rgba(7, 6, 31, 0.78);
+    }
+    /* l entete */
+    header {
+        padding: 5px 25px;
+        /*Marge verticale*/
+        background-color: rgba(221, 197, 12, 0.30);
+        /*Couleur de fond*/
+        text-align: center;
+        /*texte centré*/
+    }
+
+        /*margin auto ne fonctionne que en horizontal*/
+    .center {
+        margin: auto;
+        /*centrer la colonne*/
+        padding: 1px;
+        /*margin interne*/
+        text-align: center;
+        color: rgba(77, 69, 6, 0.71);
+        font-size: 100%;
+        background-color: rgba(235, 225, 139, 0.25);
+        
+    }
+    /*block menu*/
+    .menu {
+        margin: 80px;
+        width: 30%;
+        
+    }
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    /* Full height */
+    position: fixed;
+    font-size: 75%;
+    
+    list-style-type: none;
+    background-color: rgba(221, 197, 12, 0.40);
+    display: flex;
+    /* navbar menu en colonne verticale */
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+li a {
+    display: block;
+    color: rgba(108, 103, 68, 0.71);
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    
+}
+
+
+/* Change the link color on hover */
+
+/* partie des boutons    
+        
+}*/ 
+    
+    .buttons{
+        padding-left: 50%;
+        padding-top: 30%;
+        height: 100%;
+        position: fixed;
+    }
+    
+    .styled {
+    color: rgba(77, 69, 6, 0.71);
+    text-align: center;
+    border: inset;
+    border-width: 5%;
+    border-color: rgba(30, 69, 6, 0.25);
+    line-height: 100%;
+    /*hauteur intérieure des buttons */
+    padding: 8% 5%;
+    font-size: medium;
+    text-align: center;
+
+    border-radius: 150px;
+    /*forme arrondie*/
+    background-color: rgba(200, 200, 25, 0.35);
+
+}
+
+.styled:hover {
+    
+    background-color: rgba (200, 100, 25, 0.35);
+    color: #291705;
+}
+
+
+    styled.{
+        display: flex;
+        flex-direction: column;
+        justify-content :space-around;
+    }
+
+
+
+footer {
+    color: color: rgba(23, 22, 19, 0.8);
+    background-color: rgba(221, 197, 12, 0.30);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+}
+
+}
